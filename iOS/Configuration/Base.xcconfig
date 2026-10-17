@@ -1,0 +1,10 @@
+// These defaults support demo/import without an OAuth client.
+FORM_BUNDLE_ID = com.amal.form
+FORM_WIDGET_BUNDLE_ID = com.amal.form.widgets
+FORM_APP_GROUP = group.com.amal.form
+FORM_GOOGLE_CLIENT_ID =
+// Register a harmless valid scheme until a Google iOS client is configured.
+FORM_GOOGLE_REDIRECT_SCHEME = form-auth-unconfigured
+
+// Create this optional, ignored file with scripts/configure_ios.py.
+#include? "Local.xcconfig"

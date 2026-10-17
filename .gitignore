@@ -1,0 +1,21 @@
+# OAuth credentials and personal health records stay local.
+/.private/
+/.env
+/.env.*
+/client_secret*.json
+/credentials.json
+/token*.json
+
+# Local generated files.
+.DS_Store
+__pycache__/
+.venv/
+.build/
+.swiftpm/
+
+# Private diagnostics and unrelated local projects
+.playwright-mcp/
+casebook/
+HANDOFF.md
+*.p12
+*.mobileprovision

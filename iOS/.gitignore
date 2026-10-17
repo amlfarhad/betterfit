@@ -1,0 +1,6 @@
+# User-provided OAuth identifiers and signing overrides stay local.
+Configuration/Local.xcconfig
+Configuration/.Local-*.xcconfig
+**/xcuserdata/
+**/DerivedData/
+*.xcuserstate

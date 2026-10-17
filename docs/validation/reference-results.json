@@ -1,0 +1,9 @@
+{
+  "syntheticAgeCases": 103,
+  "assertionGroups": 131,
+  "maximumAgeAbsoluteErrorYears": 2.842170943040401e-14,
+  "ageToleranceYears": 1e-09,
+  "seed": 20260929,
+  "status": "passed",
+  "scope": "Software arithmetic and stated gates only; not clinical/device validation."
+}

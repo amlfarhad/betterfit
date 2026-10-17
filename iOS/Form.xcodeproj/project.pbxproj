@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52605A984A6D989984A04E65 /* AirSync in Frameworks */ = {isa = PBXBuildFile; productRef = B46FD0A68153BDECE69433EC /* AirSync */; };
+		5B38C70927277BE36DEC2991 /* AirAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 159CC216F4942E797BB1C143 /* AirAuth */; };
+		6513EE34344F5493458DE1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AE90F44B0A8AFD5D17B723 /* Assets.xcassets */; };
+		6E5BD94DADDBA65226002DD8 /* AirUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9E104D34F14569A9289917CA /* AirUI */; };
+		7331205F393400C80DFAA28D /* FitbitMetrics in Frameworks */ = {isa = PBXBuildFile; productRef = E3A5AF86E0E9DAABF7781E89 /* FitbitMetrics */; };
+		73D007B2F841FE8A9F99F409 /* FitbitMetrics in Frameworks */ = {isa = PBXBuildFile; productRef = E3A5AF86E0E9DAABF7781E89 /* FitbitMetrics */; };
+		93A49128C9F41C9AE82ECE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AE90F44B0A8AFD5D17B723 /* Assets.xcassets */; };
+		9580D9CB08C0E899C3D42B48 /* AirAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 159CC216F4942E797BB1C143 /* AirAuth */; };
+		A1B8D69E4C6CF90DC6BEF49C /* FormWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791CA963DC064FE2AE50AB6 /* FormWidgets.swift */; };
+		CD52F379CAAEC455A9BEFF2C /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB2ACC9F287F6D679981F7 /* FormApp.swift */; };
+		CF7502CBF96B43E5E57C97B2 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6476BBE3B447118324D124 /* WidgetSnapshot.swift */; };
+		D176B3DE630B01A3835E3FC9 /* AirSync in Frameworks */ = {isa = PBXBuildFile; productRef = B46FD0A68153BDECE69433EC /* AirSync */; };
+		DE1D6D144AF2F492FACBED47 /* AirUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9E104D34F14569A9289917CA /* AirUI */; };
+		E838633FA36537E0FD9CBAFA /* FormWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8789330537C3DABB9CE92E99 /* FormWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA817F7B4C37E210757D4D8C /* FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB2ACC9F287F6D679981F7 /* FormApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8847B4B6B52F85FB91F220CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE80F4DB239191B0EFF8F41A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3C4876369AF2653DABBCC0;
+			remoteInfo = FormWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C525D8ED7F5595552419E1E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E838633FA36537E0FD9CBAFA /* FormWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07B65F85FF601B6E89197E4C /* FormWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FormWidgets.entitlements; sourceTree = "<group>"; };
+		3A6476BBE3B447118324D124 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+		50AE90F44B0A8AFD5D17B723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B53104348D28ADD756F9255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8789330537C3DABB9CE92E99 /* FormWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FormWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A791CA963DC064FE2AE50AB6 /* FormWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWidgets.swift; sourceTree = "<group>"; };
+		BBC2ACCEEA5776102AD6E596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0032767F9967470FD9A5B71 /* FormPersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormPersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAB2ACC9F287F6D679981F7 /* FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormApp.swift; sourceTree = "<group>"; };
+		EC7B289C4DF0BCF3FA212F1D /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		F7C3AE12D6B6443E3C8D3949 /* Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0713339BBD150DC3AF9BAF /* Form.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Form.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F58C76FD001B8BB8CD38675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5BD94DADDBA65226002DD8 /* AirUI in Frameworks */,
+				D176B3DE630B01A3835E3FC9 /* AirSync in Frameworks */,
+				5B38C70927277BE36DEC2991 /* AirAuth in Frameworks */,
+				73D007B2F841FE8A9F99F409 /* FitbitMetrics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5240507E5B291F1D61718894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F0370F33811706CA185CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1D6D144AF2F492FACBED47 /* AirUI in Frameworks */,
+				52605A984A6D989984A04E65 /* AirSync in Frameworks */,
+				9580D9CB08C0E899C3D42B48 /* AirAuth in Frameworks */,
+				7331205F393400C80DFAA28D /* FitbitMetrics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462C9B4A78D9D6C67C958B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C3AE12D6B6443E3C8D3949 /* Form.app */,
+				D0032767F9967470FD9A5B71 /* FormPersonal.app */,
+				8789330537C3DABB9CE92E99 /* FormWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE8ABE70AD10D41BCAB2C48 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				DAAB2ACC9F287F6D679981F7 /* FormApp.swift */,
+				50AE90F44B0A8AFD5D17B723 /* Assets.xcassets */,
+				5B53104348D28ADD756F9255 /* Info.plist */,
+				FB0713339BBD150DC3AF9BAF /* Form.entitlements */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		7BFC2685A794AEEA0E2F9215 /* FormWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				A791CA963DC064FE2AE50AB6 /* FormWidgets.swift */,
+				3A6476BBE3B447118324D124 /* WidgetSnapshot.swift */,
+				BBC2ACCEEA5776102AD6E596 /* Info.plist */,
+				07B65F85FF601B6E89197E4C /* FormWidgets.entitlements */,
+			);
+			path = FormWidgets;
+			sourceTree = "<group>";
+		};
+		BBBEE38D3A7FEE8155C70E13 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B289C4DF0BCF3FA212F1D /* Base.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		BE3A7C91E7A9B0035DAA9FFA = {
+			isa = PBXGroup;
+			children = (
+				6FE8ABE70AD10D41BCAB2C48 /* Form */,
+				7BFC2685A794AEEA0E2F9215 /* FormWidgets */,
+				BBBEE38D3A7FEE8155C70E13 /* Configuration */,
+				462C9B4A78D9D6C67C958B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47155CDAE226EDD55EB7458C /* Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D074EBE778558566C57EBB /* Build configuration list for PBXNativeTarget "Form" */;
+			buildPhases = (
+				76995AE4253C950E13927BF3 /* Sources */,
+				C6F0370F33811706CA185CAE /* Frameworks */,
+				5895A590DFA3F4C46D2DE166 /* Resources */,
+				2C525D8ED7F5595552419E1E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97926435D20EECDC59FC483B /* PBXTargetDependency */,
+			);
+			name = Form;
+			packageProductDependencies = (
+				9E104D34F14569A9289917CA /* AirUI */,
+				B46FD0A68153BDECE69433EC /* AirSync */,
+				159CC216F4942E797BB1C143 /* AirAuth */,
+				E3A5AF86E0E9DAABF7781E89 /* FitbitMetrics */,
+			);
+			productName = Form;
+			productReference = F7C3AE12D6B6443E3C8D3949 /* Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A66CAEBCC6EB110FBD62635 /* Form Personal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E3DEEA8ACE10A4690F47AD /* Build configuration list for PBXNativeTarget "Form Personal" */;
+			buildPhases = (
+				E29B61771EE275DC1688DFBF /* Sources */,
+				2F58C76FD001B8BB8CD38675 /* Frameworks */,
+				22CE8361B8147298FD7D2044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Form Personal";
+			packageProductDependencies = (
+				9E104D34F14569A9289917CA /* AirUI */,
+				B46FD0A68153BDECE69433EC /* AirSync */,
+				159CC216F4942E797BB1C143 /* AirAuth */,
+				E3A5AF86E0E9DAABF7781E89 /* FitbitMetrics */,
+			);
+			productName = FormPersonal;
+			productReference = D0032767F9967470FD9A5B71 /* FormPersonal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3C4876369AF2653DABBCC0 /* FormWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F478B4D3B0392ADC6BB7023 /* Build configuration list for PBXNativeTarget "FormWidgets" */;
+			buildPhases = (
+				15458274D68D3D8A52DDE756 /* Sources */,
+				5240507E5B291F1D61718894 /* Frameworks */,
+				968771C2A53FE36E7C35F18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormWidgets;
+			productName = FormWidgets;
+			productReference = 8789330537C3DABB9CE92E99 /* FormWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE80F4DB239191B0EFF8F41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					47155CDAE226EDD55EB7458C = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					7A66CAEBCC6EB110FBD62635 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					AA3C4876369AF2653DABBCC0 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E941EB76F13FDFF93C938412 /* Build configuration list for PBXProject "Form" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3A7C91E7A9B0035DAA9FFA;
+			packageReferences = (
+				F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = 462C9B4A78D9D6C67C958B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47155CDAE226EDD55EB7458C /* Form */,
+				7A66CAEBCC6EB110FBD62635 /* Form Personal */,
+				AA3C4876369AF2653DABBCC0 /* FormWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CE8361B8147298FD7D2044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A49128C9F41C9AE82ECE5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5895A590DFA3F4C46D2DE166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6513EE34344F5493458DE1F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968771C2A53FE36E7C35F18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15458274D68D3D8A52DDE756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B8D69E4C6CF90DC6BEF49C /* FormWidgets.swift in Sources */,
+				CF7502CBF96B43E5E57C97B2 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76995AE4253C950E13927BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA817F7B4C37E210757D4D8C /* FormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29B61771EE275DC1688DFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52F379CAAEC455A9BEFF2C /* FormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97926435D20EECDC59FC483B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3C4876369AF2653DABBCC0 /* FormWidgets */;
+			targetProxy = 8847B4B6B52F85FB91F220CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02CECF0E55ED957413CD1475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = FormWidgets/FormWidgets.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FormWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_WIDGET_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F0A4510458F7F9280577390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Form/Form.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Form/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DF49FBED31D45D51B0B357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7B289C4DF0BCF3FA212F1D /* Base.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		703E0C3F6E1402BECE4DF544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = FormWidgets/FormWidgets.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FormWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_WIDGET_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D46749383BA2571F446B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Form/Form.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Form/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A0A6AC46513E36484FFB0F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W4NK2PNZLG;
+				ENABLE_TESTABILITY = YES;
+				FORM_APP_GROUP = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Form/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_BUNDLE_ID)";
+				PRODUCT_MODULE_NAME = FormPersonal;
+				PRODUCT_NAME = FormPersonal;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC28AC24B2DF6A6891AB62E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W4NK2PNZLG;
+				FORM_APP_GROUP = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Form/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(FORM_BUNDLE_ID)";
+				PRODUCT_MODULE_NAME = FormPersonal;
+				PRODUCT_NAME = FormPersonal;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6FAAF3D22CB21C47EFF9AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7B289C4DF0BCF3FA212F1D /* Base.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F478B4D3B0392ADC6BB7023 /* Build configuration list for PBXNativeTarget "FormWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703E0C3F6E1402BECE4DF544 /* Debug */,
+				02CECF0E55ED957413CD1475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E3DEEA8ACE10A4690F47AD /* Build configuration list for PBXNativeTarget "Form Personal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6AC46513E36484FFB0F95 /* Debug */,
+				CC28AC24B2DF6A6891AB62E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D074EBE778558566C57EBB /* Build configuration list for PBXNativeTarget "Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0A4510458F7F9280577390 /* Debug */,
+				83D46749383BA2571F446B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E941EB76F13FDFF93C938412 /* Build configuration list for PBXProject "Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF49FBED31D45D51B0B357 /* Debug */,
+				D6FAAF3D22CB21C47EFF9AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		159CC216F4942E797BB1C143 /* AirAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */;
+			productName = AirAuth;
+		};
+		9E104D34F14569A9289917CA /* AirUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */;
+			productName = AirUI;
+		};
+		B46FD0A68153BDECE69433EC /* AirSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */;
+			productName = AirSync;
+		};
+		E3A5AF86E0E9DAABF7781E89 /* FitbitMetrics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1B57EF8FC35E0B0B3DDCBAD /* XCLocalSwiftPackageReference ".." */;
+			productName = FitbitMetrics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE80F4DB239191B0EFF8F41A /* Project object */;
+}
